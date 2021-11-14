@@ -10,7 +10,7 @@ from zeep.plugins import HistoryPlugin
 # requests is used for basic communication needs with CUCM
 from requests import Session
 from requests.auth import HTTPBasicAuth
-# urllib3 is dealing with SSL checks when commincating with CUCM
+# urllib3 is dealing with SSL checks when communincating with CUCM
 from urllib3 import disable_warnings
 from urllib3.exceptions import InsecureRequestWarning
 # lxml helps with pretty printing during error handling
