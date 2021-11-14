@@ -6,3 +6,5 @@ Cisco CUCM version 12.5 introduced the ability for users to provision phones usi
 The challenge in larger rollouts may be that there is no way to sort the codes by location.
 
 This is a sample of how to use two CUCM AXL requests to filter the list of activation codes by device pool, supplying a list of the codes associated with only one device pool in question. 
+
+This was tested using Python 3.9.1 and CUCM 12.5.
